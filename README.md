@@ -42,6 +42,7 @@ source venv/bin/activate
 - squigglepy
 - numpy
 - matplotlib
+
 2. Install dependencies using Poetry:
    ```bash
    # Install Poetry if you don't have it
@@ -56,15 +57,8 @@ source venv/bin/activate
    poetry run jupyter notebook
    ```
 
-If you don't have a `requirements.txt`, create one with:
-```
-streamlit
-squigglepy
-numpy
-matplotlib
-```
-
 ### 3. Run the App
+
 ```bash
 streamlit run streamlit_app.py
 ```
