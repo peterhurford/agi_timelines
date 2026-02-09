@@ -11,7 +11,7 @@ from model_data import model_data
 
 # Default parameters
 reliability_metric = 'performance_50p'
-doubling_time_5percentile = 105 # days
+doubling_time_5percentile = 70 # days
 doubling_time_95percentile = 333 # days
 end_year = 2030
 
